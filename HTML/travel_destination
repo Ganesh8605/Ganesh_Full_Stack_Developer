@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="aqua">
+    <style>strong{
+                font-size: 3.0em; background-color: green; color: aliceblue;}
+    </style> <marquee scrollamount="20" direction="right">
+    <img src="https://www.icegif.com/wp-content/uploads/2023/06/icegif-1258.gif" alt="" height="100" width="100">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Rotating_earth_animated_transparent.gif" alt="" height="50" width="50">
+    <strong>Explore Amazing Travel Destination</strong>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Rotating_earth_animated_transparent.gif" alt="" height="50" width="50">
+    <img src="https://www.icegif.com/wp-content/uploads/2023/06/icegif-1258.gif" alt="" height="100" width="100">
+    </marquee>
+    <center>
+    <table border="3" width="1000" height="500" bgcolor="yellow">
+        <tr>
+            <th rowspan="2"><b> Destination </b></th>
+            <th colspan="2">Details</th>
+            <th rowspan="2">Maps</th>
+        </tr>
+
+        <tr>
+            <th>Image</th>
+            <th>Famous Spots</th>
+        </tr>
+        <tr>
+            <td><b>Paris <br>
+            (France)</b></td>
+            <td>
+                <img src="https://planetrail.co.uk/wp-content/uploads/Eiffel-Tower-Paris-resized.jpg" alt="" width="300" height="200">
+            </td>
+            <td><ul>
+                <li>Eiffel Tower</li>
+                <li>Lourve Museum</li>
+                <li>Notre-Dame Cathedral</li>
+            </ul>
+            <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916246075636!2d2.2944812999999997!3d48.858370099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2z4K6I4K6q4K-G4K6y4K-NIOCuleCvi-CuquCvgeCusOCuruCvjQ!5e0!3m2!1sta!2sin!4v1753854219531!5m2!1sta!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+        </tr>
+        <tr>
+            <td><b>Tokyo<br>
+            (Japan)</b></td>
+            <td>
+                <img src="https://japanbite.com/cdn/shop/articles/tokyo-tower.webp?v=1730031838" alt="" height="200" width="300">
+            </td>
+            <td>
+                <ul>
+                <li>Tokyo Tower</li>
+                <li>Shinjuku Gyeou</li>
+                <li>Semo-ji Trmple</li>
+            </ul>
+            </td>
+            <td>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7479746645863!2d139.7454329!3d35.6585805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z4K6k4K-L4K6V4K-N4K6V4K6_4K6v4K-LIOCuleCvi-CuquCvgeCusOCuruCvjQ!5e0!3m2!1sta!2sin!4v1753854518127!5m2!1sta!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td><b>New York <br>
+               (USA) </b>
+            </td>
+            <td>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI45O_UCjCopO00u1LZYkfuq2m0Re6lF4GWA&s" alt="" width="300" height="200">
+            </td>
+            <td>
+                <ul>
+                <li>Statue of Libertyr</li>
+                <li>central park</li>
+                <li>Times Square</li>
+            </ul>
+            </td>
+            <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.3063864851115!2d-74.04450039999999!3d40.6892494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2z4K614K6_4K6f4K-B4K6k4K6y4K-I4K6a4K-NIOCumuCuv-CusuCviA!5e0!3m2!1sta!2sin!4v1753854927746!5m2!1sta!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+        </tr>
+    </table></center>
+</body>
+</html>
