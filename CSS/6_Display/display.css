@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+.container{
+    height: 300px;
+    width: 700px;
+     border: 3px solid black;
+}
+.container>.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+.container> #box1{
+    display: inline-block;
+}
+.container> #box2{
+    display: inline-block;
+}
+.container>#box3{
+    display: inline;
+}
+.outer{
+    height: 300px;
+    width: 400px;
+    border: 3px solid black;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: green;
+}
+.outer> button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: none ;
+    background-color: yellow;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.outer>button:hover{
+    background-color: crimson;
+    color: antiquewhite;
+}
+.circle1
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(59, 112, 192);
+    border-radius: 50%;
+    margin-left: 33.33vw;
+    margin-top: 50px;
+}
+.circle1>h2{
+    margin-left: 70px;
+}
+.circle2
+{
+    height: 300px;
+    width: 300px;
+    background-color: orangered;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.circle3
+{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-left: 60vw;
+    margin-top: -450px;
+}
