@@ -1,0 +1,69 @@
+
+header>button{
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+header > button:hover{
+    background-color: crimson;
+    color: white;
+}
+header >button:active{
+    background-color: greenyellow;
+}
+header >ol>li:nth-child(4){
+    color: crimson;
+}
+header>ol>li:nth-child(2n+1){
+    background-color: aqua;
+}
+main{
+    background-color: aqua;
+}
+main>h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: crimson;
+    text-shadow: -2px 2px 2px black;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+main>p{
+    font-size: 19px;
+    text-indent: 60px;
+    word-spacing: 5px;
+}
+main>p::first-letter{
+    font-size: 30px;
+    color: crimson;
+    text-shadow: -2px 2px 2px black;
+}
+main>p::first-line{
+    font-style: italic;
+    font-weight: bold;
+}
+main>h1::after{
+    content: "  ***";
+    color: yellow;
+}
+main>h1::before{
+    content: "###  ";
+    color: yellow;
+}
+main>p::selection{
+    background-color: yellow;
+}
+main>ul>li:nth-child(2n)::marker{
+    color: crimson;
+}
+main>ul>li:nth-child(2n+1)::marker{
+    color: blue;
+}
+input[type="text"]{
+    background-color: yellow;
+}
+input[type="password"]{
+    background-color: yellow;
+}

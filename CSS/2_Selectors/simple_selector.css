@@ -1,0 +1,22 @@
+
+nav{
+    background-color: crimson; color: aliceblue;
+}
+/* ID seletor*/
+#logo{
+    color:aqua;
+}
+/*class selector */
+.para{
+    background-color: yellowgreen;
+    color: brown;
+}
+/*universal selector*/
+*{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*group selectors*/
+h3,h4,#para2{
+    background-color: cyan;
+}
