@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background: linear-gradient(orange,white,green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container>.inner{
+    height: 500px;
+    width: 700px;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+    background-image: url("https://allpngfree.com/apf-prod-storage-api/storage/thumbnails/indian-flag-png-image-indian-flag-tiranga-colour-hd-png-thumbnail-1723694396.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
