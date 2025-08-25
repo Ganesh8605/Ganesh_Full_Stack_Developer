@@ -1,0 +1,31 @@
+
+
+nav{
+    background-color: blanchedalmond;
+
+}
+.outer{
+    background-color: blue;
+    height: 300px;
+    width: 500px;
+}
+
+.outer >.inner{
+    background-color: aqua;
+    height:200px;
+    width:300px;
+}
+
+
+.outer >h2{
+    background-color: blueviolet;
+}
+
+nav > #logo{
+    color:black
+}
+
+.outer h1{
+    color: green
+    ;
+}
