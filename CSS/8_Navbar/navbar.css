@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: green;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav:hover{
+    background-color: chocolate;
+}
+nav>h2{
+    padding-left: 40px;
+    justify-content: flex-start;
+    font-size: 2.5em;
+    color: aqua;
+    text-shadow: -3px 2px 2px black;
+}
+nav>h2>span{
+    color: yellow;
+    text-shadow: -2px 2px 2px black;
+}
+nav>ul{
+     
+    display: flex;
+    gap: 30px;
+}
+nav>ul>li{
+     list-style: none;
+     font-weight: bold;
+     text-transform: uppercase;
+     font-size: 1.35em;
+     cursor: pointer;
+     color: greenyellow;
+     text-shadow: -3px 2px 2px black;
+}
+nav>ul>li:hover{
+     text-decoration: underline;
+     text-shadow: -3px 2px 2px white;
+     color: brown;
+
+}
+nav>.button{
+    display: flex;
+}
+.button>.bl>button{
+    height: 50px;
+    width: 90px;
+    margin-right:10px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button>.bl>button:hover{
+    background-color: rgb(196, 30, 30);
+    color: aliceblue;
+}
+.button>.bs>button{
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: orangered;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button>.bs>button:hover{
+    background-color: rgb(196, 30, 30);
+    color: aliceblue;
+}
+.bg{
+    height: 200px;
+    background-color: rgba(151, 241, 49, 0.966);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.bg>h1{
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bg>button{
+    height: 30px;
+    width: 70px;
+    text-transform: uppercase;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bg>button:hover{
+    background-color: green;
+    color: antiquewhite;
+}
+
+.bgu{
+    height: 60vh;
+    background-color: rgb(212, 248, 158);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.bgu>.up{
+    height :300px ;
+    width:400px ;
+    background-color: aqua;
+    border: 3px solid black;
+    border-radius: 25px;
+    border: none;
+}
+.bgu>.up:hover{
+     box-shadow: 3px -4px 4px 3px rgb(32, 25, 25);
+}
+.bgu>.up>img{
+    height: 70%;
+    width: 100%;
+    border: 3px solid black;
+    border-top-left-radius:  20px;
+    border-top-right-radius: 20px;
+    margin-top: -3px;
+
+}
+.bgu>.up>.b1{
+    height: 40%;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: rgb(70, 233, 92);
+    margin-top:-30px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bgu>.up>.b1>p{
+    color: brown;
+    font-size: 2em;
+    text-shadow: -2px 2px 2px black;
+}
+.bgu>.up>.b1:hover{
+    background-color: rgb(57, 240, 57);
+}
