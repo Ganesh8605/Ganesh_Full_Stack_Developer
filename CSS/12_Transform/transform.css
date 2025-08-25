@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right,red,yellow);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.outer>.box1{
+    height: 150px ;
+    width: 150px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+
+    transition: all 2s ease-in;
+}
+.outer>.box1:hover{
+    /*transform: translatex(200px);
+      transform:translatey(200px);*/
+      transform: translate(200px,200px);
+}
+.outer>.box2{
+    height: 150px ;
+    width: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    border: 2px solid black;
+
+    transition: all 2s ease-in;
+}
+.outer>.box2:hover{
+    transform: rotate(300deg);
+}
+.outer>.box3{
+    height: 150px ;
+    width: 150px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    
+    transition:all 2s ease-in ;
+}
+.outer>.box3:hover{
+    transform: scale(1.4);
+}
+.outer>.box4{
+    height: 150px ;
+    width: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    border: 2px solid black;
+
+    transition: all 2s ease-in;
+}
+.outer>.box4:hover{
+    transform: skewX(180deg);
+}
+.outer>.box5{
+    height: 150px ;
+    width: 150px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    
+    transition: all 2s ease-in;
+}
+.outer>.box5:hover{
+    transform: translate(-200px,-200px) rotate(360deg) scale(1.4) skewX(180deg);
+}
