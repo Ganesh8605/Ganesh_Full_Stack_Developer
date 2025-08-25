@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.out{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(blue,white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.out>.in{
+    height: 400px;
+    width: 525px;
+    background: linear-gradient(red,orange);
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: -2px 2px 2px black;
+}
+.in>#img{
+    position: absolute;
+
+    height: 325px;
+    top: 200px;
+    left: 500px;
+}
+.in> #img2{
+    position: absolute;
+
+    height: 225px;
+    top: 300px;
+    left: 650px;
+
+}
+.in>#img3{
+    position: absolute;
+
+    height: 200px;
+    top: 360px;
+    left: 390px;
+}
